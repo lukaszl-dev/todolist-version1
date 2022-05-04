@@ -1,0 +1,24 @@
+@use "./_variables" as var;
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // flex-wrap: wrap;
+    flex-direction: row;
+    color: var.$text-white;
+    border: 2px solid #ddd;
+    margin-top: 25px;   
+    
+    .column {
+        width: 100%;
+        height: auto;
+        min-height: 550px;
+        border-left: 2px solid white;
+        text-align: center;
+    }
+
+    p.title {
+        border-bottom: 2px solid green;
+    }
+}

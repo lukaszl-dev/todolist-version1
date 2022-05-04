@@ -1,0 +1,27 @@
+@use "./_variables" as var;
+@use "./table.scss";
+@use "./tools.scss";
+@use "./tasks.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    background-color: var.$background;
+}
+
+p.title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.draging {
+    user-select: none;
+}

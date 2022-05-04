@@ -1,0 +1,51 @@
+@use "./_variables" as var;
+
+.task {
+    width: 100%;
+    height: auto;
+    font-size: 15px;
+
+    .task__title {
+        font-size: 20px;
+    }
+
+}
+
+.normal {
+ 
+    .task__title {
+        color: var.$normal-pioryty;
+    }
+}
+
+.medium {
+
+    .task__title {
+        color: var.$medium-pioryty;
+    }
+}
+
+.hard {
+
+    .task__title{
+        color: var.$high-pioryty;
+    }
+
+}
+
+.h {
+    width: 99%;
+    border: 2px solid var.$bordertask;
+}
+
+
+.n {
+    width: 99%;
+    border: 2px solid var.$bordertask;
+}
+
+.m {
+    width: 99%;
+    border: 2px solid var.$bordertask;
+}
+

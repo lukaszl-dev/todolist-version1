@@ -1,0 +1,7 @@
+@use "./_variables" as var;
+
+.container-tools {
+    text-align: center;
+    color: var.$text-white;
+    user-select: none;
+}

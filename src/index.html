@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.scss">
+    <title>To-Do Lista</title>
+</head>
+<body>
+    <div class="container-tools">
+        <p class="title">Narzędzia:</p>
+        <form>
+            Tytuł zadania: <input type="text"> <br>
+            Treść zadania: <input type="text"> <br>
+            Priorytet zadania: 
+            <select>
+                <option>Normalny</option>  
+                <option>Średni</option>   
+                <option>Wysoki</option>     
+            </select> <br>
+            <input type="submit" value="Dodaj">
+        </form>
+    </div>
+    <div class="container">
+        <div class="column normal">
+            <p class="title">Normalny</p>
+            <div class="task n" draggable="true">
+                <p class="task__title">Matma</p>
+                <p class="task__tresc">Cos tam cos tam</p>
+            </div>
+        </div>
+        <div class="column medium">
+            <p class="title">Średni</p>
+            <div class="task m" draggable="true">
+                <p class="task__title">Matma</p>
+                <p class="task__tresc">Cos tam cos tam</p>
+            </div>
+        </div>
+        <div class="column hard">
+            <p class="title">Wysoki</p>
+            <div class="task h" draggable="true">
+                <p class="task__title">Matma</p>
+                <p class="task__tresc">Cos tam cos tam</p>
+            </div>
+        </div>
+    </div>
+    <script src="./scripts/app.js"></script>
+</body>
+</html>
