@@ -1,6 +1,6 @@
 
-const TASKS = [...document.querySelectorAll('.task')];
-const COLUMNS = [...document.querySelectorAll('.column')];
+const TASKS = document.querySelectorAll('.task');
+const COLUMNS = document.querySelectorAll('.column');
 
 
 TASKS.forEach((TASKS) => {
